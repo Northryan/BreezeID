@@ -16,7 +16,7 @@ The code is currently configured for a case study focused on land and sea breeze
 An example/ folder is included in the repository, containing:
   * The ERA5 NetCDF file used in the Bengkulu case study. This file contains two variables: u10 [longitude, latitude, time] and v10 [longitude, latitude, time], where:
     - **longitude** spans from 100.25° to 104.25° in 0.25° increments
-    - **latitude** spans from -2.0° to -6.0° in 0.25° increments
+    - **latitude** spans from -1.0° to -5.0° in 0.25° increments
     - **time** spans from 0 UTC on 01 Jan 2018 to 0 UTC on 01 Jan 2019, at hourly intervals
   * Two versions of the MJO RMM index file:
     - **modified_rmm.74toRealtime_prelim2018.txt**: The version used in the published analysis described below. This file has RMM values for 01 June 1974 to 24 July 2023. At the time of analysis, the 2018 values were preliminary.
